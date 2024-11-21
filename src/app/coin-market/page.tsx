@@ -97,7 +97,7 @@ interface DataType {
   }
 }
 export default function CoinMarket() {
-    const API_KEY = "0b588ccda872a698ba244ef258f4c5b9";
+    const API_KEY = "9a024644b6c7aa0cdbdb70a6591e1872";
     const [data, setData] = useState<DataType | null>(null);
 
     useEffect(() => {
